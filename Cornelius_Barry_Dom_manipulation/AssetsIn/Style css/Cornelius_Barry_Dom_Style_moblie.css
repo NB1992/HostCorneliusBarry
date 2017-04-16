@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+/* Document */
+body
+{
+	height:500px;
+	width:800px;
+	color:#000;
+	font-size:15px;
+}
+h1
+{
+font-size:10px;	
+}
+
+
+img
+{
+height:200px;
+width:300px;
+
+}
+input
+{
+height:20px;
+width:40px;	
+}
+/*Classes*/
+
+.Menubtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+	height:50px;
+	width:100px;
+}
+
+
+.Menu {
+    position: relative;
+    display: inline-block;
+	height:50px;
+	width:100px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	height:500px;
+	width:100px;
+}
+
+
+.Menu-content input {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+	
+	
+}
+
+
+.Menu-content input:hover {background-color: #f1f1f1}
+
+
+.Menu:hover .dropdown-content {
+    display: block;
+}
+
+
+.Menu:hover .Menubtn {
+    background-color: #3e8e41;
+}
+
+.display 
+{
+height:10px;
+width:20px;	
+}
+
+/*Classes pop up */
+a.selected {
+  background-color:#1F75CC;
+  color:white;
+  z-index:100;
+}
+
+.messagepop {
+  background-color:#FFFFFF;
+  border:1px solid #999999;
+  cursor:default;
+  display:none;
+  margin-top: 15px;
+  position:absolute;
+  text-align:left;
+  width:394px;
+  z-index:50;
+  padding: 25px 25px 20px;
+  height:200px;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  padding-left: 15px;
+  text-indent: -15px;
+}
+
+.messagepop p, .messagepop.div {
+  border-bottom: 1px solid #EFEFEF;
+  margin: 8px 0;
+  padding-bottom: 8px;
+  
+}
+
+
+
+
+
+
+
+
+/* Elements id */
+
+#Container
+{
+height:500px;
+width:800px;
+
+}
+
+
+#MenuLeft
+{
+height:50px;
+width:100px;
+float:left;
+	
+}
+
+#Main
+{
+height:200px;
+width:300px;
+margin-left:100px;
+}
+
+#Displayhtml
+{
+height:100px;
+width:300px;
+
+margin-left:100px;	
+}
+
+
+#myUpload
+{
+height:200px;
+width:200px;
+margin-left:100px;	
+}
+
+#Links
+{
+height:100px;
+width:300px;	
+}
+#Share
+{
+
+	
+}
+#reset
+
+{
+height:20px;
+width:40px;	
+margin:50px;	
+}
+#Copy
+{
+height:20px;
+width:40px;	
+}
+	
+
+/*Source code*/
+
+
+

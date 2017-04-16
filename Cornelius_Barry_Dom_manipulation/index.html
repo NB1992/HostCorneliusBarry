@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cornelius_Barry_Dom_manipulation</title>
+<link rel="stylesheet" type="text/css" href="AssetsIn/Style css/Cornelius_Barry_Dom_Style.css">
+<meta name="viewport" content="width=device-width" />
+<script src="AssetsIn/Jquery/jquery-3.2.0.js"></script>
+<script src="AssetsIn/Jquery/Cornelius_Barry_Dom.js"></script>
+
+</head>
+
+<body>
+<div id="Container">
+
+<div id="MenuFilters">
+<div class="Menu">
+<button class="Menubtn">Menu</button>
+<div class="dropdown-content">
+<form id="imageEdit">
+<h1>Grayscale</h1>
+<input class="Mfiliters" id="GrayScale" name="gs" type="range" min="0" max="100" value="0">
+<input class="display" type="text" name="gray V" id="gray-value"  value="100">
+<h1>Blur</h1>
+<input class="Mfiliters"  id="Blur" name="blur" type="range" min="0" max="10" value="0">
+<input class="display" type="text" name="blur V" id="blur-value"  value="100">   
+<h1>Exposure</h1>
+<input class="Mfiliters" id="Brightness" name="br" type="range" min="0" max="200" value="100">
+<input class="display" type="text" name="bri v" id="bright-value" value="100">
+<h1>Contrast</h1>
+<input class="Mfiliters"  id="Contrast" name="ct" type="range" min="0" max="200" value="100">
+<input class="display" type="text" name="con" id="con-value"  value="100">    
+<h1>Hue Rotate</h1>
+<input class="Mfiliters"  id="Hue" name="huer" type="range" min="0" max="360" value="0">
+<input class="display" type="text" name="hue V" id="hue-value"  value="100">
+<h1>Opacity</h1>
+<input class="Mfiliters" id="Opacity" name="opacity" type="range" min="0" max="100" value="100">
+<input class="display" type="text" name="op V" id="op-value"  value="100">
+<h1>Invert</h1>
+<input class="Mfiliters"  id="Invert" name="invert" type="range" min="0" max="100" value="0">
+<input class="display" type="text" name="in V" id="In-value" value="100">
+<h1>Saturate</h1>
+<input class="Mfiliters" id="Saturate" name="saturate" type="range" min="0" max="500" value="100">
+<input class="display" type="text" name="sat V" id="sat-value" value="100">
+<h1>Sepia</h1>
+<input class="Mfiliters"  id="Sepia" name="sepia" type="range" min="0" max="100" value="0">
+<input class="display" type="text" name="Sep V" id="sep-value" value="100">        
+</form>
+</div>
+</div>
+<div class="messagepop pop">
+<div id="Links">
+</div>
+
+<a class="close" href="/">Cancel</a></p>    
+</div>
+<a href="/source" id="Share">Share And copy Code</a><br />
+<input type="reset" form="imageEdit" id="reset" value="Reset" />
+<div id="Interface">
+<input type="file" id="myUpload" />
+</div>  
+</div>
+<div id="Main">
+<div id="imageContainer" class="center">
+<img src="#" id="myPicture"/>
+</div>
+</div>
+<div id="Displayhtml">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
