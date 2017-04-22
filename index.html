@@ -1,6 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Cornelius_Barry_Dom_manipulation</title>
 <link rel="stylesheet" type="text/css" href="AssetsIn/Style css/Cornelius_Barry_Dom_Style.css">
@@ -9,11 +10,12 @@
 <script src="AssetsIn/Jquery/Cornelius_Barry_Dom.js"></script>
 
 </head>
-
 <body>
+
 <div id="Container">
 
-<div id="MenuFilters">
+<div id="MenuFilter">
+
 <div class="Menu">
 <button class="Menubtn">Menu</button>
 <div class="dropdown-content">
@@ -46,26 +48,39 @@
 <input class="Mfiliters"  id="Sepia" name="sepia" type="range" min="0" max="100" value="0">
 <input class="display" type="text" name="Sep V" id="sep-value" value="100">        
 </form>
+<input type="reset" form="imageEdit" id="reset" value="Reset" />
 </div>
 </div>
+
+<div id="MenuPop">
 <div class="messagepop pop">
 <div id="Links">
 </div>
+<button onclick = "alert(document.body.outerHTML)">source</button>
 
 <a class="close" href="/">Cancel</a></p>    
 </div>
 <a href="/source" id="Share">Share And copy Code</a><br />
-<input type="reset" form="imageEdit" id="reset" value="Reset" />
-<div id="Interface">
-<input type="file" id="myUpload" />
-</div>  
 </div>
+<div id="MenuUp">
+
+<input type="file" id="myUpload" />
+</div>
+
+</div>
+
 <div id="Main">
 <div id="imageContainer" class="center">
 <img src="#" id="myPicture"/>
 </div>
 </div>
-<div id="Displayhtml">
+
+
+
+
+
+
+<div id="Display">
 </div>
 
 
@@ -93,6 +108,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
+
 </body>
+
 </html>

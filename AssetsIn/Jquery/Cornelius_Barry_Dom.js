@@ -1,6 +1,8 @@
 // JavaScript Document
 
 $(document).ready(function() {
+
+    	
 /*Popup code*/
 function deselect(e) {
   $('.pop').slideFadeToggle(function() {
@@ -53,7 +55,7 @@ function editImage() {
     '%) saturate(' + Saturate +
     '%) sepia(' + Sepia + '%)'
   );
-   $("#Displayhtml").html(
+   $("#Display").html(
     '{filter: ' +
     'grayscale(' + gray +
     '%) blur(' + Blur +
