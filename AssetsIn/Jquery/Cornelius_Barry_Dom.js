@@ -1,8 +1,28 @@
 // JavaScript Document
-
+$( document ).ready(function() {
+$(".share").click(function (e) {
+      $('.content').toggleClass('show');
+      e.preventDefault();
+    });
+});
 $(document).ready(function() {
-
-    	
+ $('button').on('click', function () {
+  $('#Get')[0].select()
+  document.execCommand('copy')
+}) 
+$("#Source").on('click',function(){
+	var fBody, result;
+fBody = document.getElementsByTagName("div")[0];
+result = $(fBody).contents().map(function(){
+    if (this.nodeValue) {
+        return this.nodeValue   
+    }
+    else {
+        return $(this).clone().wrap('<p>').parent().html();
+    }
+}).get().join("");
+$("#Get").val(result);
+});
 /*Popup code*/
 function deselect(e) {
   $('.pop').slideFadeToggle(function() {
